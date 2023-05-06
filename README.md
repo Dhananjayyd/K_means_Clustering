@@ -23,18 +23,18 @@
 >ii. no (or minimum) change of Centroids.
 >
 >iii. minimum decreased in the sum of squared error,
->                     k
+>                     
 >             SSE =  Σ   Σ || xi - ui||^2 
->                   i=1 x∈Si
+>                    
   
 **Similarity/Distance measure**
   
 -**Distance metric(Scale dependent)**
 
 > --minkowski family of distance measure
->                 n
+>                 
 > d(xi , xj) = (  Σ |xis - xjs|^p)^1/p
->                 s=1
+>                 
 >
  > Manhattan (p = 1), Euclidean (p = 2)              
                  
