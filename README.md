@@ -38,9 +38,9 @@
 >
  > Manhattan (p = 1), Euclidean (p = 2) 
 
-**Convergence of K-Means
+**Convergence of K-Means**
 
-> -Recomputation monotonically decreases each square error since (mj is number of members in cluster j):
+> - Recomputation monotonically decreases each square error since (mj is number of members in cluster j):
 >
  >       Σ (xi - a)^2 reaches minimum for:
  >             
@@ -52,12 +52,15 @@
  >      
  > - K-Means typically converges quickly.
 
-***Time Comlexity of K-Means Clustering***
+***Time Complexity of K-Means Clustering***
 
-
-
-
-
+> - Computing distance between two item is O(n) where n is the dimensionality of the vectors.
+>
+> - Reassigning clusters: O(km) distance computations, or O(kmn).
+> 
+> - Computing centroids: Each item gets addedd once to some centroid ; O(mn).
+> 
+> - Assume these two steps are each done once for t iterations: O(tknm).
 
 
 **EXAMPLES**
