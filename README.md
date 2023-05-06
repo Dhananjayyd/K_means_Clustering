@@ -65,4 +65,11 @@
 
 **EXAMPLES**
 
-
+> Suppose we have two variables M1 and M2. The x-y axis scatter plot of these two variables is given below:
+> 
+> ![kmeans1](https://user-images.githubusercontent.com/107355282/236619834-faa4b53b-764a-4c06-ac82-842c0e0b840c.png)
+>
+> - Let's take number k of clusters, i.e., K=2, to identify the dataset and to put them into different clusters. It means here we will try to group these datasets into > two different clusters.
+> -We need to choose some random k points or centroid to form the cluster. These points can be either the points from the dataset or any other point. So, here we are >  >  selecting the below two points as k points, which are not the part of our dataset. Consider the below image:
+>
+>
