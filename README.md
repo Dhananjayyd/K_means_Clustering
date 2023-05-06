@@ -36,8 +36,30 @@
 > d(xi , xj) = (  Σ |xis - xjs|^p)^1/p
 >                 
 >
- > Manhattan (p = 1), Euclidean (p = 2)              
-                 
+ > Manhattan (p = 1), Euclidean (p = 2) 
+
+**Convergence of K-Means
+
+> -Recomputation monotonically decreases each square error since (mj is number of members in cluster j):
+>
+ >       Σ (xi - a)^2 reaches minimum for:
+ >             
+ >       Σ -2(xi - a) = 0
+ >       
+ >         Σ xi =  Σ a = mja
+ >       
+ >      a = 1/mj  Σ xi = cj
+ >      
+ > - K-Means typically converges quickly.
+
+***Time Comlexity of K-Means Clustering***
+
+
+
+
+
+
+
 **EXAMPLES**
 
 
