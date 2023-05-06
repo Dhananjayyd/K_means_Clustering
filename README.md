@@ -70,6 +70,15 @@
 > ![kmeans1](https://user-images.githubusercontent.com/107355282/236619834-faa4b53b-764a-4c06-ac82-842c0e0b840c.png)
 >
 > - Let's take number k of clusters, i.e., K=2, to identify the dataset and to put them into different clusters. It means here we will try to group these datasets into > two different clusters.
-> -We need to choose some random k points or centroid to form the cluster. These points can be either the points from the dataset or any other point. So, here we are >  >  selecting the below two points as k points, which are not the part of our dataset. Consider the below image:
+> - We need to choose some random k points or centroid to form the cluster. These points can be either the points from the dataset or any other point. So, here we are >    selecting the below two points as k points, which are not the part of our dataset. Consider the below image:
 >
+>![kmeans](https://user-images.githubusercontent.com/107355282/236620213-b140ca53-a4b8-415d-b048-dea76c333f47.png)
 >
+> - Now we will assign each data point of the scatter plot to its closest K-point or centroid. We will compute it by applying some mathematics that we have studied to > calculate the distance between two points. So, we will draw a median between both the centroids. Consider the below image:
+>  
+>![kmeans2](https://user-images.githubusercontent.com/107355282/236620491-8e57f8c8-1a92-479b-a28b-a6165c43e8b9.png)
+>
+>From the above image, it is clear that points left side of the line is near to the K1 or blue centroid, and points to the right of the line are close to the yellow >centroid. Let's color them as blue and yellow for clear visualization.
+>
+>From the above image, it is clear that points left side of the line is near to the K1 or blue centroid, and points to the right of the line are close to the yellow >centroid. 
+
